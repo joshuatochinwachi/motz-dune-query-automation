@@ -2,8 +2,8 @@ name: Daily Dune Query Runner
 
 on:
   schedule:
-    # Runs at 7:55 AM UTC every day
-    - cron: '55 07 * * *'
+    # Runs at 11:55 AM UTC every day
+    - cron: '55 11 * * *'
   workflow_dispatch:  # Allows manual trigger for testing
 
 jobs:
